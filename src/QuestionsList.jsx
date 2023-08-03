@@ -1,4 +1,4 @@
-const QuestionsList = [
+const QuestionsList= [
     {
         question:"Was macht ihr mit euren Kindern am Wochenende?",
         answersList: [
@@ -109,9 +109,9 @@ const QuestionsList = [
     },{
         question:"Wie war der Film?",
         answersList: [
-            {answer:"Sehr spannend. Den kann ich dir wirklich empfehlen.", isCorrect:false},
+            {answer:"Sehr spannend. Den kann ich dir wirklich empfehlen.", isCorrect:true},
             {answer:"Schlecht. Den können Sie nicht empfehlen.", isCorrect:false},
-            {answer:"Er hat ihnen gar nicht gefallen.", isCorrect:true},
+            {answer:"Er hat ihnen gar nicht gefallen.", isCorrect:false},
         ]
     },{
         question:"Es ist schon halb acht!",
@@ -218,4 +218,4 @@ const QuestionsList = [
 
 ].sort(() => Math.random() - 0.5);
 
-export default QuestionsList;
+export default QuestionsList
